@@ -10,7 +10,7 @@ sequenceDiagram
     participant Slack
     participant Bot
     participant Controller
-    participant RamaLama as r
+    participant r as Ramalama
 
     User ->> Slack: Generates a prompt.
     Slack ->> Bot: Sends prompt.
